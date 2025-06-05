@@ -1,4 +1,7 @@
+import generator_kodu
+
 def mastermind():
-    print("mastermind")
+    ukryty_kod = generator_kodu.KodGenerator().generuj_kod(4, unikalne=False)
+
 
 mastermind()
