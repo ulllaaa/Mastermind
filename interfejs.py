@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox, font
-from KodGenerator import KodGenerator
+from generator_kodu import KodGenerator
 
 
 class MastermindGUI(tk.Tk):
